@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="Picture/U know.jpeg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName">Peter Nasamu Edward </h1>
+
+    <!-- Job Title -->
+    <h2 data-testid="jobTitle">Front-end Developer</h2>
+
+    <!-- Short Bio -->
+    <p data-testid="shortBio">
+      Hi! I'm a passionate front-end Developer who would like to futher his skills, I love solving problems and creating
+      user-friendly solutions.
+    </p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation">📍Abuja, Nigeria</p>
+
+    <!-- Email Address -->
+    <p data-testid="emailAddress"> nasamupeter2@gmail.com</p>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Nasamu1" target="_blank">GitHub</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC">🕒 Current UTC Time: <span id="currentTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
